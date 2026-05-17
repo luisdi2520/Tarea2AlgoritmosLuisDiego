@@ -7,4 +7,4 @@ def busquedaSecuencial(lista, objeto):
     for i, elemen in enumerate(lista):
         if elemen == objeto:
             return i
-    return -1
+    return -1 

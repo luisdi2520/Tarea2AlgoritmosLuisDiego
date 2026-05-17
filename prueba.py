@@ -32,7 +32,7 @@ print("\n Ordenamientos")
 for n in tamaños:
     lista_orde = list(range(n))
     lista_des = lista_orde.copy(); random.shuffle(lista_des)
-    lista_inv = list(range(n, 0, -1))
+    lista_inv = list(reversed(range(n)))
 
     for nombre, fn in [("Burbuja", burbuja),
                        ("Seleccion", seleccion),]:
